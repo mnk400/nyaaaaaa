@@ -1,0 +1,91 @@
+body {
+    background-image: url("../assets/nyan.gif");
+    background-repeat: repeat;
+    background-size: 20em;
+}
+
+#nyaute_switch {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+
+#nyaute_switch .material-icons.md-24 {
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+#nyaute_switch .material-icons.md-24:hover {
+    background-color: #f08cc7;
+}
+
+#nyaroll {
+    position: absolute;
+    top: 1em;
+    left: 4em;
+}
+
+#nyaroll .material-icons.md-24 {
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+#nyaroll .material-icons.md-24:hover {
+    background-color: #8bbafb;
+}
+
+#nyamessage {
+    position: absolute;
+    width: 18em;
+    height: 18em;
+    top: 50%;
+    left: 50%;
+    margin: -9em 0 0 -9em;
+    background-color: white;
+    border-radius: 10px;
+}
+#nyamessage h2 {
+    font-family: "Roboto";
+    font-size: 1.5em;
+    font-weight: 800;
+    padding-top: 3%;
+    padding-left: 10%;
+}
+#nyamessage p {
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 300;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#nyautton {
+    position: absolute;
+    width: 10em;
+    height: 3em;
+    top: 80%;
+    left: 50%;
+    margin: -1.5em 0 0 -5em; 
+}
+
+#nyautton button{
+    width: 100%;
+    height: 100%;
+    background-color: #f08cc7;
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+    color: black;
+    border-radius: 10px;
+}
+
+#nyautton button:hover {
+    background-color:#8bbafb;
+}
